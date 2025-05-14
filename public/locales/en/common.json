@@ -1050,5 +1050,13 @@
         "movies": "Movies",
         "episodes": "Episodes",
         "other": "Other"
+    },
+    "redis": {
+        "connected_clients": "Clients",
+        "total_keys": "Keys",
+        "used_memory": "Memory",
+        "ops_per_second": "Ops/sec",
+        "uptime_days": "Uptime",
+        "version": "Version"
     }
 }
