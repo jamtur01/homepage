@@ -263,6 +263,13 @@
         "queued": "Queued",
         "books": "Books"
     },
+    "whisparr": {
+        "wanted": "Wanted",
+        "missing": "Missing",
+        "queued": "Queued",
+        "scenes": "Scenes",
+        "unknown": "Unknown"
+    },
     "bazarr": {
         "missingEpisodes": "Missing Episodes",
         "missingMovies": "Missing Movies"

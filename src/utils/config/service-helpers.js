@@ -374,7 +374,7 @@ export function cleanServiceGroups(groups) {
           // speedtest
           bitratePrecision,
 
-          // sonarr, radarr
+          // sonarr, radarr, whisparr
           enableQueue,
 
           // stocks
@@ -480,7 +480,7 @@ export function cleanServiceGroups(groups) {
           if (showEpisodeNumber !== undefined) widget.showEpisodeNumber = !!JSON.parse(showEpisodeNumber);
           if (enableUser !== undefined) widget.enableUser = !!JSON.parse(enableUser);
         }
-        if (["sonarr", "radarr"].includes(type)) {
+        if (["sonarr", "radarr", "whisparr"].includes(type)) {
           if (enableQueue !== undefined) widget.enableQueue = JSON.parse(enableQueue);
         }
         if (type === "truenas") {

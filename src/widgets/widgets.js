@@ -133,6 +133,7 @@ import vikunja from "./vikunja/widget";
 import watchtower from "./watchtower/widget";
 import wgeasy from "./wgeasy/widget";
 import whatsupdocker from "./whatsupdocker/widget";
+import whisparr from "./whisparr/widget";
 import xteve from "./xteve/widget";
 import zabbix from "./zabbix/widget";
 
@@ -276,6 +277,7 @@ const widgets = {
   watchtower,
   wgeasy,
   whatsupdocker,
+  whisparr,
   xteve,
   zabbix,
 };
